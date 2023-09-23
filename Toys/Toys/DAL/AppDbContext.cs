@@ -11,5 +11,6 @@ namespace Toys.DAL
 
         }
        public DbSet<HomeHeader>? HomeHeaders { get; set; }
+        public DbSet<CreativeApproach> CreativeApproaches { get; set; }
     }
 }

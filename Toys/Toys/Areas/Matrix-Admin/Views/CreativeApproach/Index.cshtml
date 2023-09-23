@@ -1,0 +1,48 @@
+﻿@using Toys.Areas.Matrix_Admin.ViewModels.CreativeApproach
+@model CreativeApproachIndexVM
+<div class="main-panel">
+    <div class="content-wrapper">
+        <div class="row">
+            <div class="col-lg-12 grid-margin stretch-card">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Creative Approach</h4>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Id</th>
+                                        <th>Title</th>
+                                        <th>Text</th>
+                                        <th>Modifie At</th>
+                                        <th>First Image</th>
+                                        <th>Second Image</th>
+
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>@Model.GetCreativeApproach.Id</td>
+                                        <td>@Model.GetCreativeApproach.Title</td>
+                                        <td>@Model.GetCreativeApproach.Text</td>
+                                        <td>@Model.GetCreativeApproach.ModifiedAt</td>
+                                        <td>
+                                            <img style="width:50% " src="~/Images/@Model.GetCreativeApproach.Image1">
+                                        </td>
+                                        <td>
+                                            <img style="width:50%" src="~/Images/@Model.GetCreativeApproach.Image2">
+                                        </td>
+                                        <td>
+                                            <a class="btn btn-primary" asp-area="Matrix-admin" asp-controller="CreativeApproach" asp-action="update" asp-route-id="@Model.GetCreativeApproach.Id">Update</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,48 @@
+﻿@using Toys.Areas.Matrix_Admin.ViewModels.HomeHeaderVM
+@model HomeHeaderIndexVM
+<div class="main-panel">
+    <div class="content-wrapper">
+        <div class="row">
+            <div class="col-md-12 grid-margin stretch-card">
+                <div class="card">
+                    <div class="card-body">
+
+                        <p class="card-description">
+                            Update Home Header
+                        </p>
+                        <form asp-validatio-summary="ModelOnly" enctype="multipart/form-data" method="post" asp-action="update" asp-controller="homeheader" asp-area="matrix-admin" class="forms-sample">
+                            @*<div asp-validation-summary="ModelOnly"></div>*@
+                            <div class="form-group">
+                                <label asp-for="@Model.GetHomeHeader.Title">@Model.GetHomeHeader.Title</label>
+                                <input required class="form-control" asp-for="@Model.GetHomeHeader.Title">
+                                <span asp-validation-for="@Model.GetHomeHeader.Title"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="@Model.GetHomeHeader.Text">@Model.GetHomeHeader.Text</label>
+                                <input class="form-control" asp-for="@Model.GetHomeHeader.Text">
+                                <span asp-validation-for="@Model.GetHomeHeader.Text"></span>
+                            </div>
+                            <button type="submit" class="btn btn-primary me-2">Submit</button>
+                            <a class="btn btn-light" href="../">Cancel</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script src="https://cdn.ckeditor.com/ckeditor5/35.2.1/classic/ckeditor.js"></script>
+<script>
+    ClassicEditor
+        .create(document.querySelector('#Info'))
+        .then(editor => {
+            console.log(editor);
+        })
+        .catch(error => {
+            console.error(error);
+        });
+</script>

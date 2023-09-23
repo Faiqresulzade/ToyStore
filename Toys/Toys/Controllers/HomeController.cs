@@ -14,11 +14,12 @@ namespace Toys.Controllers
             _appDbContext = appDbContext;
         }
 
-        public async Task<IActionResult> GetData()
+        public async Task<IActionResult> Index()
         {
             HomeInexVM model = new HomeInexVM()
             {
-                GetHomeHeader = await _appDbContext.HomeHeaders.FirstOrDefaultAsync()
+                GetHomeHeader = await _appDbContext.HomeHeaders.FirstOrDefaultAsync(),
+                GetCreativeApproach=await _appDbContext.CreativeApproaches.FirstOrDefaultAsync()
             };
             return View(model);
         }

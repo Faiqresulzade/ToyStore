@@ -1,0 +1,59 @@
+﻿@using Toys.Areas.Matrix_Admin.ViewModels.CreativeApproach
+@model CreativeApproachUpdateVM
+<div class="main-panel">
+    <div class="content-wrapper">
+        <div class="row">
+            <div class="col-md-12 grid-margin stretch-card">
+                <div class="card">
+                    <div class="card-body">
+
+                        <p class="card-description">
+                            Update Home Header
+                        </p>
+                        <form asp-validatio-summary="ModelOnly" enctype="multipart/form-data" method="post" asp-action="update" asp-controller="creativeapproach" asp-area="matrix-admin" class="forms-sample">
+                            @*<div asp-validation-summary="ModelOnly"></div>*@
+                            <div class="form-group">
+                                <label asp-for="Title">Title</label>
+                                <input required class="form-control" asp-for="Title">
+                                <span asp-validation-for="Title"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Text">Text</label>
+                                <input class="form-control" asp-for="Text">
+                                <span asp-validation-for="Text"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Image1">Image1</label>
+                                <input class="form-control" asp-for="Image1">
+                                <span asp-validation-for="Image1"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Image2">Image2</label>
+                                <input class="form-control" asp-for="Image2">
+                                <span asp-validation-for="Image2"></span>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary me-2">Submit</button>
+                            <a class="btn btn-light" href="../">Cancel</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script src="https://cdn.ckeditor.com/ckeditor5/35.2.1/classic/ckeditor.js"></script>
+<script>
+    ClassicEditor
+        .create(document.querySelector('#Info'))
+        .then(editor => {
+            console.log(editor);
+        })
+        .catch(error => {
+            console.error(error);
+        });
+</script>

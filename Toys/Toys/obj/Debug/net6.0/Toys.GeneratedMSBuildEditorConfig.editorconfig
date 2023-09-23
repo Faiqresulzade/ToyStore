@@ -15,6 +15,42 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Honor\Desktop\ToyStore\Toys\Toys
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Honor/Desktop/ToyStore/Toys/Toys/Areas/Matrix-Admin/Views/CreativeApproach/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWF0cml4LUFkbWluXFZpZXdzXENyZWF0aXZlQXBwcm9hY2hcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Honor/Desktop/ToyStore/Toys/Toys/Areas/Matrix-Admin/Views/CreativeApproach/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWF0cml4LUFkbWluXFZpZXdzXENyZWF0aXZlQXBwcm9hY2hcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Honor/Desktop/ToyStore/Toys/Toys/Areas/Matrix-Admin/Views/Dashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWF0cml4LUFkbWluXFZpZXdzXERhc2hib2FyZFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Honor/Desktop/ToyStore/Toys/Toys/Areas/Matrix-Admin/Views/HomeHeader/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWF0cml4LUFkbWluXFZpZXdzXEhvbWVIZWFkZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Honor/Desktop/ToyStore/Toys/Toys/Areas/Matrix-Admin/Views/HomeHeader/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWF0cml4LUFkbWluXFZpZXdzXEhvbWVIZWFkZXJcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Honor/Desktop/ToyStore/Toys/Toys/Areas/Matrix-Admin/Views/Shared/_layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWF0cml4LUFkbWluXFZpZXdzXFNoYXJlZFxfbGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Honor/Desktop/ToyStore/Toys/Toys/Areas/Matrix-Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWF0cml4LUFkbWluXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Honor/Desktop/ToyStore/Toys/Toys/Areas/Matrix-Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWF0cml4LUFkbWluXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Honor/Desktop/ToyStore/Toys/Toys/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Honor/Desktop/ToyStore/Toys/Toys/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
