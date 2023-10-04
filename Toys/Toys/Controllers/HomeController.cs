@@ -14,14 +14,16 @@ namespace Toys.Controllers
             _appDbContext = appDbContext;
         }
 
-        public async Task<IActionResult> Index()
-        {
-            HomeInexVM model = new HomeInexVM()
-            {
-                GetHomeHeader = await _appDbContext.HomeHeaders.FirstOrDefaultAsync(),
-                GetCreativeApproach=await _appDbContext.CreativeApproaches.FirstOrDefaultAsync()
-            };
-            return View(model);
-        }
+        //public async Task<IActionResult> Index()
+        //{
+            //HomeInexVM model = new HomeInexVM()
+            //{
+            //    GetHomeHeader = await _appDbContext.HomeHeaders.FirstOrDefaultAsync(),
+            //    GetCreativeApproach=await _appDbContext.CreativeApproaches.FirstOrDefaultAsync(),
+            //    GetToysCategory=await _appDbContext.ToysCategories.ToListAsync(),
+            //    GetToys=await _appDbContext.Toys.ToListAsync(),
+            //};
+        //    return View(model);
+        //}
     }
 }

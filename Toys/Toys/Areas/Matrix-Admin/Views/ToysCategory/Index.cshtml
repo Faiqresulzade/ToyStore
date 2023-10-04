@@ -1,0 +1,53 @@
+﻿@using Toys.Areas.Matrix_Admin.ViewModels.ToysCategory
+@model ToysCategoryIndexVM
+<div class="main-panel">
+    <div class="content-wrapper">
+        <div class="row">
+            <div class="col-lg-12 grid-margin stretch-card">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Toys Category</h4>
+                        <a class="btn btn-main" asp-action="create" asp-controller="toyscategory" asp-area="Matrix-admin">Create Toys Category</a>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Id</th>
+                                        <th>Title</th>
+                                        <th>CreateAt</th>
+                                        <th>ModifiedAt</th>
+                                        <th>Photo</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var toysCategory in Model.GetToysCategories)
+                                    {
+                                        <tr>
+                                            <td>@toysCategory.Id</td>
+                                            <td>@toysCategory.CategoryTitle</td>
+                                            @*<td>@news.Info</td>*@
+                                            <td>@toysCategory.CreatedAt.ToShortDateString()/  @toysCategory.CreatedAt.ToShortTimeString()</td>
+                                            <td>@toysCategory.ModifiedAt.ToShortDateString()/  @toysCategory.ModifiedAt.ToShortTimeString()</td>
+                                            <td>
+                                                <img style="width:50px; height:70px" src="~/Images/@toysCategory.ImgUrl?" />
+                                            </td>
+                                            <td>
+                                                <form asp-validatio-summary="ModelOnly" enctype="multipart/form-data" method="post" asp-action="delete" asp-route-id="@toysCategory.Id" asp-controller="toyscategory" asp-area="matrix-admin" class="forms-sample">
+
+                                                    <button class="btn btn-danger">Delete</button>
+                                               </form>
+                                                <a class="btn btn-primary" asp-action="update" asp-controller="toyscategory" asp-area="Matrix-admin" asp-route-id="@toysCategory.Id">Update</a>
+                                            </td>
+                                        </tr>
+
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

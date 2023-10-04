@@ -12,5 +12,7 @@ namespace Toys.DAL
         }
        public DbSet<HomeHeader>? HomeHeaders { get; set; }
         public DbSet<CreativeApproach> CreativeApproaches { get; set; }
+        public DbSet<Toys.Models.ToysModel> Toys { get; set; }
+        public DbSet<ToysCategory> ToysCategories { get; set; }
     }
 }

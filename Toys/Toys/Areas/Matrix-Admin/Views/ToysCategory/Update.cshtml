@@ -1,0 +1,34 @@
+﻿@using Toys.Areas.Matrix_Admin.ViewModels.ToysCategory
+@model ToysCategoryUpdateVM
+<div class="main-panel">
+    <div class="content-wrapper">
+        <div class="row">
+            <div class="col-md-12 grid-margin stretch-card">
+                <div class="card">
+                    <div class="card-body">
+
+                        <p class="card-description">
+                            Update Toys Category
+                        </p>
+                        <form asp-validatio-summary="ModelOnly" enctype="multipart/form-data" method="post" asp-action="update" asp-controller="toyscategory" asp-area="matrix-admin" class="forms-sample">
+                            @*<div asp-validation-summary="ModelOnly"></div>*@
+                            <div class="form-group">
+                                <label asp-for="CategoryTitle">CategoryTitle</label>
+                                <input required class="form-control" asp-for="CategoryTitle">
+                                <span asp-validation-for="CategoryTitle"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Image">Image</label>
+                                <input class="form-control" asp-for="Image">
+                                <span asp-validation-for="Image"></span>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary me-2">Submit</button>
+                            <a class="btn btn-light" href="../">Cancel</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
