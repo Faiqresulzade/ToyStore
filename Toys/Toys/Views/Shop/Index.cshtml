@@ -1,0 +1,115 @@
+﻿@using Toys.ViewModels.Shop
+@model ShopIndexVM
+
+
+<section id="shop">
+    <div class="container">
+        <div class="row">
+            <div class="shop col-12 col-lg-12 col-md-12 col-xs-12">
+                <div class="shop-title">
+                    <h1>Shop</h1>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="shop--product-filter col-12 col-md-12">
+                <div class="shop-products col-lg-8 col-md-12">
+
+                    @foreach (var toys in Model.Toys)
+                    {
+                        <div id="ShopProducts">
+                            <div id="1" class="product col-lg-4 col-md-6 col-s-12">
+                                <div class="product-img">
+                                    <img src="~/Images/@toys.ImageURl" alt="@toys.Title">
+                                    <div class="overlay">
+                                        <a href="#">
+                                            <i id="Wishlist" class="fa-regular fa-heart heart"></i>
+                                        </a>
+                                        <a href="product.html"><i class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="product-title--price">
+                                    <p><a href="product.html">@toys.Title</a></p>
+                                    <span>$</span><span>@toys.Price</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                    }
+                    @if(Model.Toys.Count>2){
+                         <div class="load-more col-12">
+                            <button id="loadmore" class="btn--load-more">
+                            Load More
+                        </button>
+                    </div>
+                    }
+                   
+
+                </div>
+                <div class="shop-filter col-lg-4 col-md-12">
+                    <div class="shop-categories">
+                        <h2>Categories</h2>
+                        <ul class="my-list">
+                            <li data-filter="BathToys"><a href="#">Bath Toys</a></li>
+                            <li data-filter="Electronic"><a href="#">Electronic</a></li>
+                            <li data-filter="FiguresPlay"><a href="#">Figures Play</a></li>
+                            <li data-filter="Learning"><a href="#">Learning</a></li>
+                        </ul>
+                    </div>
+                    <div class="filter-range">
+                        <h2>Filter</h2>
+                        <div class="d-flex">
+                            <div class="wrapper">
+                                <header>
+                                    <h2>Price Range</h2>
+                                    <p>Use slider or enter min and max price</p>
+                                </header>
+                                <div class="price-input">
+                                    <form method="get" asp-action="index" asp-controller="shop">
+                                        <div class="field">
+                                            <span>Min</span>
+                                            <input asp-for="MinValue" type="number" class="input-min" value="0">
+                                        </div>
+                                        <div class="separator">-</div>
+                                        <div class="field">
+                                            <span>Max</span>
+                                            <input asp-for="MaxValue" type="number" class="input-max" value="1000">
+                                        </div>
+                                        <div class="range-button">
+                                            <button type="submit">
+                                                Filter
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="slider">
+                                    <div class="progress"></div>
+                                </div>
+                                <div class="range-input">
+                                    <input type="range" class="range-min" min="0" max="1000" value="0" step="2">
+                                    <input type="range" class="range-max" min="0" max="1000" value="1000" step="2">
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.js"></script>
+
+@*<script src="~/JS/main.js"></script>
+<script src="~/JS/mobile-navbar.js"></script>
+<script src="~/JS/price-range.js"></script>
+<script src="~/JS/filter.js"></script>
+<script src="~/JS/wishlist.js"></script>*@
+
+<script src="~/JS/Backjs.js"></script>

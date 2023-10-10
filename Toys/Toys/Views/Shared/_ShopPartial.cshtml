@@ -1,0 +1,22 @@
+﻿@using Toys.Models
+@model List<ToysModel>
+
+@foreach (var toys in Model)
+{
+    <div id="1" class="product col-lg-4 col-md-6 col-s-12">
+        <div class="product-img">
+            <img src="~/Images/@toys.ImageURl" alt="@toys.Title">
+            <div class="overlay">
+                <a href="#">
+                    <i id="Wishlist" class="fa-regular fa-heart heart"></i>
+                </a>
+                <a href="product.html"><i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+        <div class="product-title--price">
+            <p><a href="product.html">@toys.Title</a></p>
+            <span>$</span><span>@toys.Price</span>
+        </div>
+    </div>
+
+}

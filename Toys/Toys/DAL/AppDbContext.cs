@@ -14,5 +14,13 @@ namespace Toys.DAL
         public DbSet<CreativeApproach> CreativeApproaches { get; set; }
         public DbSet<Toys.Models.ToysModel> Toys { get; set; }
         public DbSet<ToysCategory> ToysCategories { get; set; }
+        public DbSet<Contact> ContactUs { get; set; }
+
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            builder.Entity<ToysCategory>().HasMany(x => x.Toys).WithOne(x => x.Category);
+            base.OnModelCreating(builder);
+        }
     }
 }

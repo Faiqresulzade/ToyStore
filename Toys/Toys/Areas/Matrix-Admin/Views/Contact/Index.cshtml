@@ -1,0 +1,53 @@
+﻿@using Toys.Areas.Matrix_Admin.ViewModels.Contact
+@model ContactIndexVM
+<div class="main-panel">
+    <div class="content-wrapper">
+        <div class="row">
+            <div class="col-lg-12 grid-margin stretch-card">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Message</h4>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Id</th>
+                                        <th>Name</th>
+                                        <th>Email</th>
+                                        <th>Create At</th>
+                                        <th>Number</th>
+                                        <th>Subject</th>
+                                        <th>Text</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var message in Model.Message)
+                                    {
+                                        <tr>
+                                            <td>@message.Id</td>
+                                            <td>@message.Name</td>
+                                            <td>@message.Email</td>
+                                            <td>@message.CreatedAt</td>
+                                            <td>@message.Number</td>
+                                            <td>@message.Subject</td>
+                                            <td>@message.Text</td>
+                                            <td>
+                                                <form asp-area="Matrix-admin" asp-controller="Contact" asp-action="Delete" asp-route-id="@message.Id" method="post">
+
+                                                  <button type="submit" class="btn btn-danger">Delete</button>
+
+                                                </form>
+                                            </td>
+                                        </tr>
+                                    }
+                                    
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
