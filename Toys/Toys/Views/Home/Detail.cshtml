@@ -1,0 +1,37 @@
+﻿@using Toys.Models
+@model ToysModel
+
+<section id="products">
+    <div class="container">
+        <div id="@Model.Id" class="row">
+            <div class="product-view">
+                <div class="product--view-img col-lg-6 col-md-12">
+                    <img src="~/Images/@Model.ImageURl" alt="toy-view">
+                </div>
+                <div class="product--view-description col-lg-6 col-md-12">
+                    <div class="product--view-title">
+                        <h2>@Model.Title</h2>
+                    </div>
+                    <div class="product--view-price">
+                        <h4>
+                            <span>
+                                @Model.Price
+                            </span>
+                            <span>
+                                $
+                            </span>
+                        </h4>
+                    </div>
+                    <p>@Model.Description</p>
+
+                    <div class="add-wishlist">
+                        <button class="wishlist" type="submit" id="addToWishlistBtn">
+                            Add To Wishlist
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="~/JS/wishlist.js"></script>

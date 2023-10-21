@@ -77,11 +77,66 @@ namespace Toys.Areas.Matrix_Admin.Controllers
                 CreatedAt = model.CreateAt,
                 CategoryId= model.ToysCategoryId,
                 ImageURl = model.ImageURl,
+                Description=model.Description
             };
 
             await _appDbContext.Toys.AddAsync(toys);
             await _appDbContext.SaveChangesAsync();
 
+            return RedirectToAction(nameof(Index));
+        }
+
+        [HttpGet]
+        public async Task<IActionResult>Update(int id)
+        {
+            var toys = await _appDbContext.Toys.FindAsync(id);
+
+            if (toys == null) return BadRequest();
+
+            var model = new ToysUpdateVM(toys.Title,toys.ImageURl,toys.Price,toys.Description,toys.CategoryId);
+
+            model.Toys_Category = await _appDbContext.ToysCategories.Select(c => new SelectListItem()
+            {
+                Text = c.CategoryTitle,
+                Value = c.Id.ToString()
+            }).ToListAsync();
+
+            return View(model);
+
+        }
+
+        [HttpPost]
+
+        public async Task<IActionResult> Update(ToysUpdateVM model, int id)
+        {
+            model.Toys_Category = await _appDbContext.ToysCategories.Select(c => new SelectListItem()
+            {
+                Text = c.CategoryTitle,
+                Value = c.Id.ToString()
+            }).ToListAsync();
+
+            if (!ModelState.IsValid) return View(model);
+
+            var toys = await _appDbContext.Toys.FindAsync(id);
+
+            if (toys == null) return BadRequest();
+
+            if (model.Image != null)
+            {
+                if (!_fileService.IsImage(model.Image))
+                {
+                    ModelState.AddModelError("Image", "Yuklenen shekil Image formatinda olmalidir!!");
+                    return View(model);
+                }
+                toys.ImageURl = await _fileService.Upload(model.Image, _webHostEnvironment.WebRootPath);
+            }
+
+            toys.Title = model.Title;
+            toys.ModifiedAt = DateTime.Now;
+            toys.Price = model.Price;
+            toys.Description = model.Description;
+            toys.CategoryId = model.ToysCategoryId;
+            await _appDbContext.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
     }

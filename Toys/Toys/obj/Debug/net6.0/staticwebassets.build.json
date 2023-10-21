@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "auV0d+p/epqtfH668RDyOMmFJaykMpRKUrmho45EV3E=",
+  "Hash": "b0nkqxaaTz0H7hp9YjQfyeSN6tX3R+z+25EUqf6Dlzw=",
   "Source": "Toys",
   "BasePath": "_content/Toys",
   "Mode": "Default",
@@ -31858,6 +31858,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\SCSS\\pages\\_wishlist.scss"
     },
     {
+      "Identity": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\Images\\02afa23a-0910-4add-bb61-b0c392ec1cfa_post17-copyright-650x572.jpg",
+      "SourceId": "Toys",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\",
+      "BasePath": "_content/Toys",
+      "RelativePath": "Images/02afa23a-0910-4add-bb61-b0c392ec1cfa_post17-copyright-650x572.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\02afa23a-0910-4add-bb61-b0c392ec1cfa_post17-copyright-650x572.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\Images\\05aac18f-6b75-40bd-b4ce-9839b1785e2c_Screenshot 2023-09-28 171226.png",
       "SourceId": "Toys",
       "SourceType": "Discovered",
@@ -32011,6 +32028,23 @@
       "OriginalItemSpec": "wwwroot\\Images\\2e8837cf-a9b8-4a6b-9f04-ee06ddb39489_Screenshot 2023-09-28 171226.png"
     },
     {
+      "Identity": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\Images\\2ee2579a-eea7-4bf6-a28e-f0d788411f72_indir.jpeg",
+      "SourceId": "Toys",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\",
+      "BasePath": "_content/Toys",
+      "RelativePath": "Images/2ee2579a-eea7-4bf6-a28e-f0d788411f72_indir.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\2ee2579a-eea7-4bf6-a28e-f0d788411f72_indir.jpeg"
+    },
+    {
       "Identity": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\Images\\2f2ae933-c84b-4efa-8384-26c8e685e568_Screenshot 2023-09-28 171226.png",
       "SourceId": "Toys",
       "SourceType": "Discovered",
@@ -32128,6 +32162,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\586074a6-8735-4a5e-aa41-bf3c862713c3_Screenshot 2023-09-28 171226.png"
+    },
+    {
+      "Identity": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\Images\\5a38ebc7-3994-4d84-86dc-a5aeff192d08_indir (1).jpeg",
+      "SourceId": "Toys",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\",
+      "BasePath": "_content/Toys",
+      "RelativePath": "Images/5a38ebc7-3994-4d84-86dc-a5aeff192d08_indir (1).jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\5a38ebc7-3994-4d84-86dc-a5aeff192d08_indir (1).jpeg"
     },
     {
       "Identity": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\Images\\5a6dd61b-72b2-4a9c-8d7d-1429569a6956_Screenshot 2023-09-28 171226.png",
@@ -32249,6 +32300,23 @@
       "OriginalItemSpec": "wwwroot\\Images\\75259998-4e8f-4f47-b2e6-d40f9506ba6f_Screenshot 2023-09-28 171226.png"
     },
     {
+      "Identity": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\Images\\754c005f-ac29-4190-9c6e-3edf75d6e260_indir.jpeg",
+      "SourceId": "Toys",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\",
+      "BasePath": "_content/Toys",
+      "RelativePath": "Images/754c005f-ac29-4190-9c6e-3edf75d6e260_indir.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\754c005f-ac29-4190-9c6e-3edf75d6e260_indir.jpeg"
+    },
+    {
       "Identity": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\Images\\762ac0ec-a21e-4102-a610-f3f5d46fc73c_Screenshot 2023-09-28 171226.png",
       "SourceId": "Toys",
       "SourceType": "Discovered",
@@ -32298,23 +32366,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\7ec94840-e79f-4f04-9160-e9164093c963_Screenshot 2023-09-28 171226.png"
-    },
-    {
-      "Identity": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\Images\\7edd054f-7e88-4042-91fb-39695660e413_Screenshot 2023-09-28 171226.png",
-      "SourceId": "Toys",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\",
-      "BasePath": "_content/Toys",
-      "RelativePath": "Images/7edd054f-7e88-4042-91fb-39695660e413_Screenshot 2023-09-28 171226.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\7edd054f-7e88-4042-91fb-39695660e413_Screenshot 2023-09-28 171226.png"
     },
     {
       "Identity": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\Images\\82bd08cf-393d-4ffa-bb1f-27d24a6393b0_Screenshot 2023-09-28 171226.png",
@@ -32470,6 +32521,23 @@
       "OriginalItemSpec": "wwwroot\\Images\\b89703d3-039b-4913-84df-671bb23ca89c_Screenshot 2023-09-28 171226.png"
     },
     {
+      "Identity": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\Images\\bcdf22fc-471f-4d9b-9b4a-cbd1c621b585_indir (1).jpeg",
+      "SourceId": "Toys",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\",
+      "BasePath": "_content/Toys",
+      "RelativePath": "Images/bcdf22fc-471f-4d9b-9b4a-cbd1c621b585_indir (1).jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\bcdf22fc-471f-4d9b-9b4a-cbd1c621b585_indir (1).jpeg"
+    },
+    {
       "Identity": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\Images\\c082729a-e6ee-4455-a1ad-01d0edee8f68_Screenshot 2023-09-28 171226.png",
       "SourceId": "Toys",
       "SourceType": "Discovered",
@@ -32485,6 +32553,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\c082729a-e6ee-4455-a1ad-01d0edee8f68_Screenshot 2023-09-28 171226.png"
+    },
+    {
+      "Identity": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\Images\\c5487a0e-4679-49b7-a33e-1d09306174e4_post17-copyright-650x572.jpg",
+      "SourceId": "Toys",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\",
+      "BasePath": "_content/Toys",
+      "RelativePath": "Images/c5487a0e-4679-49b7-a33e-1d09306174e4_post17-copyright-650x572.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\c5487a0e-4679-49b7-a33e-1d09306174e4_post17-copyright-650x572.jpg"
     },
     {
       "Identity": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\Images\\ce46e648-07f1-4adf-9ff6-81b3eabc1769_Screenshot 2023-09-28 171226.png",
@@ -32555,12 +32640,12 @@
       "OriginalItemSpec": "wwwroot\\Images\\f70a21e6-8c30-456b-8561-51e9372c0d79_Screenshot 2023-09-28 171226.png"
     },
     {
-      "Identity": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\JS\\Backjs.js",
+      "Identity": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\JS\\filterCategory.js",
       "SourceId": "Toys",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\",
       "BasePath": "_content/Toys",
-      "RelativePath": "JS/Backjs.js",
+      "RelativePath": "JS/filterCategory.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -32569,41 +32654,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\JS\\Backjs.js"
-    },
-    {
-      "Identity": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\JS\\counter.js",
-      "SourceId": "Toys",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\",
-      "BasePath": "_content/Toys",
-      "RelativePath": "JS/counter.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\JS\\counter.js"
-    },
-    {
-      "Identity": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\JS\\filter.js",
-      "SourceId": "Toys",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\",
-      "BasePath": "_content/Toys",
-      "RelativePath": "JS/filter.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\JS\\filter.js"
+      "OriginalItemSpec": "wwwroot\\JS\\filterCategory.js"
     },
     {
       "Identity": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\JS\\main.js",

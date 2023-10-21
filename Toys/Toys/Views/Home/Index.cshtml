@@ -1,5 +1,159 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@using Toys.ViewModels.Home
+@model HomeInexVM
+
+
+<!-- Slider start -->
+@if (Model.GetHomeHeader != null)
+{
+    <div class="discover-shop">
+        <div class="container">
+            <div class="row">
+                <div class="discover-title col-12">
+                    <div class="discover--shop-title">
+                        <h2>@Model.GetHomeHeader.Title</h2>
+                    </div>
+                    <div class="discover--shop-description">
+                        <p>
+                            @Model.GetHomeHeader.Text
+                        </p>
+                    </div>
+                    <div class="discover--shop-button">
+                        <button type="submit" class="btn">
+                            Discover now!
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 }
+
+<!-- Slider end -->
+<!-- Categories start -->
+<div class="product-categories">
+    <div class="container">
+        <div class="row">
+            <div class="category col-12">
+                <div class="category-title">
+                    <h1>Categories</h1>
+                </div>
+                <div class="category-description">
+                    <h2>We design toys not just for kids but with kids</h2>
+                </div>
+            </div>
+            <div class="col-12">
+                @foreach (var category in Model.GetToysCategory)
+                {
+                    <div class="categories col-lg-3 col-md-6 col-s-12">
+                        <div class="categories-image">
+                            <img src="~/Images/@category.ImgUrl" alt="categories">
+                        </div>
+                        <div class="categories-title">
+                            <h3>@category.CategoryTitle</h3>
+                        </div>
+                    </div>
+
+                }
+            </div>
+        </div>
+    </div>
+    <!-- Categories end -->
+    <!-- Shopping start -->
+    <div class="shopping">
+        <div class="container">
+            <div class="row">
+                <div class="shopping-title">
+                    <p>SHOP JUNO TOYS & GAMES</p>
+                    <h1>Popular in Store</h1>
+
+                    @foreach (var toys in Model.GetToys)
+                    {
+                        <div class="product col-lg-3 col-md-6 col-s-12">
+                            <div class="product-img">
+                                <img src="~/Images/@toys.ImageURl" alt="">
+                                <div class="overlay">
+                                    <a asp-action="detail" asp-controller="home" asp-route-id="@toys.Id"><i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="product-title--price">
+                                <p><a >@toys.Title</a></p>
+                                <span>$</span><span>@toys.Price</span>
+                            </div>
+                        </div>
+                    }
+            </div>
+        </div>
+    </div>
+    <!-- Shopping end -->
+    <!-- About-us start -->
+    <div class="team-about-us">
+        <div class="container">
+            <div class="row">
+                <div class="aboutus-image col-12 ">
+                    <div class="about-img col-lg-6 col-md-12">
+                        <img src="~/Images/@Model.GetCreativeApproach.Image1" alt="">
+                        <div class="smile">
+                            <img src="/assets/Img/smile.svg" alt="smile">
+                            <img src="./assets/Img/about-us.svg" alt="aboutus cycle" id="cycle">
+                        </div>
+
+                    </div>
+                    <div class="about-info col-lg-6 col-md-12 ">
+                        <span>CREATIVE APPROACH</span>
+                        <h1>@Model.GetCreativeApproach.Title</h1>
+                        <p>
+                           @Model.GetCreativeApproach.Text
+                        </p>
+                        <img src="~/Images/@Model.GetCreativeApproach.Image2" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About-us end -->
+    <!-- Futures start -->
+    <div class="futures">
+        <div class="container">
+            <div class="row">
+                <div class="futures-opinions col-12 col-lg-3 col-md-6 col-s-12">
+                    <div class="futures-icon">
+                        <i class="fa-solid fa-shop"></i>
+                    </div>
+                    <div class="futures-description">
+                        <h3>Best prices</h3>
+                        <p>Affordable</p>
+                    </div>
+                </div>
+                <div class="futures-opinions col-12 col-lg-3 col-md-6 col-s-12">
+                    <div class="futures-icon">
+                        <i class="fa-solid fa-truck-fast"></i>
+                    </div>
+                    <div class="futures-description">
+                        <h3>Fast Shippment</h3>
+                        <p>
+                            Express
+                        </p>
+                    </div>
+                </div>
+                <div class="futures-opinions col-12 col-lg-3 col-md-6 col-s-12">
+                    <div class="futures-icon">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </div>
+                    <div class="futures-description">
+                        <h3>Buyers Protection</h3>
+                        <p>Guarantee</p>
+                    </div>
+                </div>
+                <div class="futures-opinions col-lg-3 col-md-6 col-s-12">
+                    <div class="futures-icon">
+                        <i class="fa-solid fa-headset"></i>
+                    </div>
+                    <div class="futures-description">
+                        <h3>Live Support</h3>
+                        <p>Online</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Futures end -->

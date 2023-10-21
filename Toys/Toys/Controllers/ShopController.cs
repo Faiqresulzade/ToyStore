@@ -15,7 +15,6 @@ namespace Toys.Controllers
             _appDbContext = appDbContext;
         }
         public async Task<ViewResult> Index(ShopIndexVM model)
-        
         {
             var toys = FilterByPrice(model.MaxValue, model.MinValue);
             model = new ShopIndexVM()

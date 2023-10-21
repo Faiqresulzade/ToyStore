@@ -13,6 +13,7 @@ namespace Toys.Areas.Matrix_Admin.ViewModels.ToysModel
         public string? ImageURl { get; set; }
         [Required]
         public int Price { get; set; }
+        public string Description { get; set; }
         public DateTime CreateAt { get; set; }
         [Required]
         [Display(Name = "Category")]

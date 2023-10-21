@@ -297,6 +297,10 @@ namespace Toys.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("ImageURl")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");

@@ -25,5 +25,13 @@ namespace Toys.Controllers
             };
             return View(model);
         }
+
+        public async Task<IActionResult>Detail(int id)
+        {
+            var toys=await _appDbContext.Toys.FindAsync(id);
+            if (toys == null) return BadRequest();
+
+            return View(toys);
+        }
     }
 }

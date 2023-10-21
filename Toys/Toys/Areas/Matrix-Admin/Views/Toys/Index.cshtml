@@ -16,6 +16,7 @@
                                         <th>Title</th>
                                         <th>Price</th>
                                         <th>Category</th>
+                                        <th>Description</th>
                                         <th>CreateAt</th>
                                         <th>ModifiedAt</th>
                                         <th>Photo</th>
@@ -30,6 +31,7 @@
                                             <td>@toys.Title</td>
                                             <td>@toys.Price</td>
                                             <td>@toys.Category.CategoryTitle</td>
+                                            <td>@toys.Description</td>
                                             <td>@toys.CreatedAt.ToShortDateString()/  @toys.CreatedAt.ToShortTimeString()</td>
                                             <td>@toys.ModifiedAt.ToShortDateString()/  @toys.ModifiedAt.ToShortTimeString()</td>
                                             <td>
@@ -40,7 +42,7 @@
 
                                                     <button class="btn btn-danger">Delete</button>
                                                 </form>
-                                                <a class="btn btn-primary" asp-action="update" asp-controller="toyscategory" asp-area="Matrix-admin" asp-route-id="@toys.Id">Update</a>
+                                                <a class="btn btn-primary" asp-action="update" asp-controller="toys" asp-area="Matrix-admin" asp-route-id="@toys.Id">Update</a>
                                             </td>
                                         </tr>
 

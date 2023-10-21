@@ -25,9 +25,9 @@
                         </a>
                     </div>
                     <ul class="nav-menu col-lg-4">
-                        <li><a href="index.html" class="nav-link">Home</a></li>
-                        <li><a href="shop.html" class="nav-link">Shop</a></li>
-                        <li><a href="contact.html" class="nav-link">Contact</a></li>
+                        <li><a asp-action="index" asp-controller="home" class="nav-link hover-underline-animation">Home</a></li>
+                        <li><a asp-action="index" asp-controller="shop" class="nav-link hover-underline-animation">Shop</a></li>
+                        <li><a asp-action="index" asp-controller="contact" class="nav-link hover-underline-animation">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -40,16 +40,16 @@
                 <nav class="navbar-mobile">
                     <ul class="nav-menu">
                         <li> <a href="#"><img src="~/assets/Img/logo.jpg" alt="logo"></a></li>
-                        <li><a href="index.html" class="nav-link">Home</a></li>
-                        <li><a href="shop.html" class="nav-link">Shop</a></li>
-                        <li><a href="contact.html" class="nav-link">Contact</a></li>
+                        <li><a asp-action="index" asp-controller="home" class="nav-link hover-underline-animation">Home</a></li>
+                        <li><a asp-action="index" asp-controller="shop" class="nav-link hover-underline-animation">Shop</a></li>
+                        <li><a asp-action="index" asp-controller="contact" class="nav-link hover-underline-animation">Contact</a></li>
                     </ul>
                 </nav>
             </div>
             <div class="nav-futures col-lg-4">
                 <ul>
                     <li>
-                        <a href="wishlist.html">
+                        <a asp-action="index" asp-controller="wishlist">
                             <i class="fa-regular fa-heart"></i>
                         </a>
                     </li>

@@ -27,6 +27,11 @@
                                 <span asp-validation-for="Price"></span>
                             </div>
                             <div class="form-group">
+                                <label asp-for="Description">Description</label>
+                                <input class="form-control" asp-for="Description">
+                                <span asp-validation-for="Description"></span>
+                            </div>
+                            <div class="form-group">
                                 <label asp-for="ToysCategoryId"></label>
                                 <select class="form-select" asp-for="ToysCategoryId" asp-items="Model.Toys_Category"></select>
                                 <span asp-validation-for="ToysCategoryId"></span>
