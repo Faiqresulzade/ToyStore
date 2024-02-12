@@ -1,0 +1,20 @@
+﻿@using Toys.Areas.Matrix_Admin.ViewModels.Account
+@model AccountLoginVM
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <form method="post" asp-action="login" asp-controller="account">
+        <input asp-for="Username">
+        <span asp-validation-for="Username"></span>
+        <input asp-for="Password">
+        <span asp-validation-for="Password"></span>
+
+        <button>Login</button>
+    </form>
+</body>
+</html>

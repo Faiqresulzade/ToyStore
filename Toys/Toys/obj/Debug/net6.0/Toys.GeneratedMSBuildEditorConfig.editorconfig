@@ -5,6 +5,7 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Toys
 build_property.RootNamespace = Toys
@@ -14,6 +15,10 @@ build_property.SupportLocalizedComponentNames =
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\Users\Honor\Desktop\ToyStore\Toys\Toys
 build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Honor/Desktop/ToyStore/Toys/Toys/Areas/Matrix-Admin/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWF0cml4LUFkbWluXFZpZXdzXEFjY291bnRcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Honor/Desktop/ToyStore/Toys/Toys/Areas/Matrix-Admin/Views/Contact/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWF0cml4LUFkbWluXFZpZXdzXENvbnRhY3RcSW5kZXguY3NodG1s

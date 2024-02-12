@@ -245,3 +245,8 @@ C:\Users\Honor\Desktop\ToyStore\Toys\Toys\bin\Debug\net6.0\vi\Humanizer.resource
 C:\Users\Honor\Desktop\ToyStore\Toys\Toys\bin\Debug\net6.0\zh-CN\Humanizer.resources.dll
 C:\Users\Honor\Desktop\ToyStore\Toys\Toys\bin\Debug\net6.0\zh-Hans\Humanizer.resources.dll
 C:\Users\Honor\Desktop\ToyStore\Toys\Toys\bin\Debug\net6.0\zh-Hant\Humanizer.resources.dll
+C:\Users\Honor\Desktop\ToyStore\Toys\Toys\obj\Debug\net6.0\staticwebassets\msbuild.Toys.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Honor\Desktop\ToyStore\Toys\Toys\obj\Debug\net6.0\staticwebassets\msbuild.build.Toys.props
+C:\Users\Honor\Desktop\ToyStore\Toys\Toys\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Toys.props
+C:\Users\Honor\Desktop\ToyStore\Toys\Toys\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Toys.props
+C:\Users\Honor\Desktop\ToyStore\Toys\Toys\obj\Debug\net6.0\staticwebassets.pack.json

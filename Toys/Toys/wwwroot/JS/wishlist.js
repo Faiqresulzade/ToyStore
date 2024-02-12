@@ -1,14 +1,8 @@
-console.log(1);
-
-
 let wishlistbtns = document.querySelectorAll(".wishlist");
 let products = JSON.parse(localStorage.getItem("products")) || [];
 
-console.log(products)
-console.log(wishlistbtns)
 
 for (let wishlistbtn of wishlistbtns) {
-    console.log(2)
     wishlistbtn.onclick = function (e) {
         e.preventDefault();
 

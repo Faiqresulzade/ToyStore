@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Toys.Areas.Matrix_Admin.ViewModels.HomeHeaderVM;
 using Toys.DAL;
 
 namespace Toys.Areas.Matrix_Admin.Controllers
 {
+    [Authorize(Roles = "Admin")]
     [Area("Matrix-Admin")]
     public class HomeHeaderController : Controller
     {

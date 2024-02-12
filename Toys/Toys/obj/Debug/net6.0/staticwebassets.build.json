@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "b0nkqxaaTz0H7hp9YjQfyeSN6tX3R+z+25EUqf6Dlzw=",
+  "Hash": "eS18xCylurdywpj4UyGDNDTN+Qcn/5mzTgKPwvT96VU=",
   "Source": "Toys",
   "BasePath": "_content/Toys",
   "Mode": "Default",
@@ -32062,6 +32062,23 @@
       "OriginalItemSpec": "wwwroot\\Images\\2f2ae933-c84b-4efa-8384-26c8e685e568_Screenshot 2023-09-28 171226.png"
     },
     {
+      "Identity": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\Images\\363e7c1d-29bd-465e-ba0f-425f0ac3e3a9_post17-copyright-650x572.jpg",
+      "SourceId": "Toys",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\",
+      "BasePath": "_content/Toys",
+      "RelativePath": "Images/363e7c1d-29bd-465e-ba0f-425f0ac3e3a9_post17-copyright-650x572.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\363e7c1d-29bd-465e-ba0f-425f0ac3e3a9_post17-copyright-650x572.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\Images\\379bbbd3-f00f-4387-ab21-7b3b246ea2c9_Screenshot 2023-09-28 171226.png",
       "SourceId": "Toys",
       "SourceType": "Discovered",
@@ -32638,6 +32655,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\f70a21e6-8c30-456b-8561-51e9372c0d79_Screenshot 2023-09-28 171226.png"
+    },
+    {
+      "Identity": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\JS\\Backjs.js",
+      "SourceId": "Toys",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\",
+      "BasePath": "_content/Toys",
+      "RelativePath": "JS/Backjs.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\JS\\Backjs.js"
     },
     {
       "Identity": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\JS\\filterCategory.js",

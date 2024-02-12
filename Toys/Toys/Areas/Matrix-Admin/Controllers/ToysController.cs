@@ -1,4 +1,5 @@
 ﻿using Core.Utilities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -8,6 +9,7 @@ using Toys.Models;
 
 namespace Toys.Areas.Matrix_Admin.Controllers
 {
+    [Authorize(Roles = "Admin")]
     [Area("Matrix-admin")]
     public class ToysController : Controller
     {

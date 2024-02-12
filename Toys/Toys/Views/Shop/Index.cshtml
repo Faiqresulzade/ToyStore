@@ -26,11 +26,11 @@
                                         <a href="#">
                                             <i id="Wishlist" class="fa-regular fa-heart heart wishlist"></i>
                                         </a>
-                                        <a asp-action="Detail" asp-controller="home" asp-route-id="@toys.Id"><i class="fa-solid fa-arrow-right"></i></a>
+                                        <a target="_blank" asp-action="Detail" asp-controller="home" asp-route-id="@toys.Id"><i class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                                 <div class="product-title--price">
-                                    <p><a href="product.html">@toys.Title</a></p>
+                                    <p><a target="_blank" asp-action="Detail" asp-controller="home" asp-route-id="@toys.Id">@toys.Title</a></p>
                                     <span>$</span><span>@toys.Price</span>
                                 </div>
                             </div>

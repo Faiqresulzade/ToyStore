@@ -20,6 +20,7 @@ namespace Toys.DAL
         protected override void OnModelCreating(ModelBuilder builder)
         {
             builder.Entity<ToysCategory>().HasMany(x => x.Toys).WithOne(x => x.Category);
+            //builder.en<RoleType>().Hasmany(
             base.OnModelCreating(builder);
         }
     }
