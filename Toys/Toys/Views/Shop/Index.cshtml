@@ -19,24 +19,26 @@
                     @foreach (var toys in Model.Toys)
                     {
                         <div id="ShopProducts">
-                            <div id="@toys.Id" class="product col-lg-4 col-md-6 col-s-12">
-                                <div class="product-img">
+                            <div data-id="@toys.Id" class="product col-lg-4 col-md-6 col-s-12 my-card" data-filter="BathToys">
+                                <div class="product-img my-card-img">
                                     <img src="~/Images/@toys.ImageURl" alt="@toys.Title">
                                     <div class="overlay">
-                                        <a href="#">
-                                            <i id="Wishlist" class="fa-regular fa-heart heart wishlist"></i>
+                                        <a class="wishlist">
+                                            <i class="fa-regular fa-heart heart "></i>
                                         </a>
-                                        <a target="_blank" asp-action="Detail" asp-controller="home" asp-route-id="@toys.Id"><i class="fa-solid fa-arrow-right"></i></a>
+                                        <a asp-action="Detail" asp-controller="home" asp-route-id="@toys.Id"><i class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                                 <div class="product-title--price">
-                                    <p><a target="_blank" asp-action="Detail" asp-controller="home" asp-route-id="@toys.Id">@toys.Title</a></p>
-                                    <span>$</span><span>@toys.Price</span>
+                                    <p>
+                                        <a class="my-card-title" data-title="@toys.Title" asp-action="Detail" asp-controller="home" asp-route-id="@toys.Id">
+                                            @toys.Title
+                                        </a>
+                                    </p>
+                                    <h4 class="my-card-price" data-price="@toys.Price"><span>@toys.Price</span><span>$</span></h4>
                                 </div>
                             </div>
                         </div>
-                        
-
                     }
                     @if(Model.Toys.Count>2){
                          <div class="load-more col-12">
@@ -45,8 +47,6 @@
                         </button>
                     </div>
                     }
-                   
-
                 </div>
                 <div class="shop-filter col-lg-4 col-md-12">
                     <div class="shop-categories">
@@ -103,6 +103,8 @@
 
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
 
 <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.js"></script>
 

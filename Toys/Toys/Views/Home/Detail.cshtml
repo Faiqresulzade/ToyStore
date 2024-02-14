@@ -1,37 +1,34 @@
 ﻿@using Toys.Models
 @model ToysModel
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastify-js/1.6.1/toastify.css" integrity="sha512-VSD3lcSci0foeRFRHWdYX4FaLvec89irh5+QAGc00j5AOdow2r5MFPhoPEYBUQdyarXwbzyJEO7Iko7+PnPuBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <section id="products">
     <div class="container">
-        <div id="@Model.Id" class="row">
-            <div class="product-view">
-                <div class="product--view-img col-lg-6 col-md-12">
-                    <img src="~/Images/@Model.ImageURl" alt="toy-view">
+        <div class="row">
+        <div class="product-view my-card" data-id="@Model.Id">
+            <div class="product--view-img col-lg-6 col-md-12 my-card-img">
+                <img src="~/Images/@Model.ImageURl" alt="@Model.ImageURl">
+            </div>
+            <div class="product--view-description  col-lg-6 col-md-12">
+                <div class="product--view-title">
+                    <h2 class="my-card-title" data-title="@Model.Title">@Model.Title</h2>
                 </div>
-                <div class="product--view-description col-lg-6 col-md-12">
-                    <div class="product--view-title">
-                        <h2>@Model.Title</h2>
-                    </div>
-                    <div class="product--view-price">
-                        <h4>
-                            <span>
-                                @Model.Price
-                            </span>
-                            <span>
-                                $
-                            </span>
-                        </h4>
-                    </div>
-                    <p>@Model.Description</p>
-
-                    <div class="add-wishlist">
-                        <button class="wishlist" type="submit" id="addToWishlistBtn">
-                            Add To Wishlist
-                        </button>
-                    </div>
+                <div class="product--view-price">
+                    <h4 class="my-card-price" data-price="@Model.Price"><span>@Model.Price</span><span>$</span></h4>
+                </div>
+                <p>@Model.Description</p>
+                <div class="add-wishlist">
+                        <button class="wishlist" type="button">
+                        add to cart
+                    </button>
                 </div>
             </div>
         </div>
+        </div>
+
     </div>
 </section>
+
+
 <script src="~/JS/wishlist.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastify-js/1.6.1/toastify.js" integrity="sha512-MnKz2SbnWiXJ/e0lSfSzjaz9JjJXQNb2iykcZkEY2WOzgJIWVqJBFIIPidlCjak0iTH2bt2u1fHQ4pvKvBYy6Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
