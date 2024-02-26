@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eS18xCylurdywpj4UyGDNDTN+Qcn/5mzTgKPwvT96VU=",
+  "Hash": "LYD6vfG6w0EsiA0b0PQdlVqwzVnFsqmvRw2RA8om4UM=",
   "Source": "Toys",
   "BasePath": "_content/Toys",
   "Mode": "Default",
@@ -31229,6 +31229,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\main.css.map"
     },
     {
+      "Identity": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\assets\\Img\\87.png",
+      "SourceId": "Toys",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\",
+      "BasePath": "_content/Toys",
+      "RelativePath": "assets/Img/87.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\Img\\87.png"
+    },
+    {
       "Identity": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\assets\\Img\\about-us.svg",
       "SourceId": "Toys",
       "SourceType": "Discovered",
@@ -31416,23 +31433,6 @@
       "OriginalItemSpec": "wwwroot\\assets\\Img\\juno_3-1-copyright.jpg"
     },
     {
-      "Identity": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\assets\\Img\\logo.jpg",
-      "SourceId": "Toys",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\",
-      "BasePath": "_content/Toys",
-      "RelativePath": "assets/Img/logo.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\Img\\logo.jpg"
-    },
-    {
       "Identity": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\assets\\Img\\post111-copyright.jpg",
       "SourceId": "Toys",
       "SourceType": "Discovered",
@@ -31465,23 +31465,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\Img\\post17-copyright-650x572.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\assets\\Img\\post26-copyright.jpg",
-      "SourceId": "Toys",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\",
-      "BasePath": "_content/Toys",
-      "RelativePath": "assets/Img/post26-copyright.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\Img\\post26-copyright.jpg"
     },
     {
       "Identity": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\assets\\Img\\post27-copyright.jpg",

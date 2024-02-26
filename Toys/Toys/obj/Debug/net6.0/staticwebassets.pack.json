@@ -7545,6 +7545,10 @@
       "PackagePath": "staticwebassets\\JS\\wishlist.js"
     },
     {
+      "Id": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\assets\\Img\\87.png",
+      "PackagePath": "staticwebassets\\assets\\Img\\87.png"
+    },
+    {
       "Id": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\assets\\Img\\about-us.svg",
       "PackagePath": "staticwebassets\\assets\\Img\\about-us.svg"
     },
@@ -7589,20 +7593,12 @@
       "PackagePath": "staticwebassets\\assets\\Img\\juno_3-1-copyright.jpg"
     },
     {
-      "Id": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\assets\\Img\\logo.jpg",
-      "PackagePath": "staticwebassets\\assets\\Img\\logo.jpg"
-    },
-    {
       "Id": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\assets\\Img\\post111-copyright.jpg",
       "PackagePath": "staticwebassets\\assets\\Img\\post111-copyright.jpg"
     },
     {
       "Id": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\assets\\Img\\post17-copyright-650x572.jpg",
       "PackagePath": "staticwebassets\\assets\\Img\\post17-copyright-650x572.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\assets\\Img\\post26-copyright.jpg",
-      "PackagePath": "staticwebassets\\assets\\Img\\post26-copyright.jpg"
     },
     {
       "Id": "C:\\Users\\Honor\\Desktop\\ToyStore\\Toys\\Toys\\wwwroot\\assets\\Img\\post27-copyright.jpg",

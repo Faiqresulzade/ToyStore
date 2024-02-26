@@ -36,6 +36,7 @@
             cursor: pointer;
             border: none;
             transition: all 0.8s;
+          
             &:hover{
                 opacity: 0.8;
                 background-color: white;
@@ -43,6 +44,12 @@
             }
         }
     }
+}
+
+.active-wish{
+    color: red !important;
+    font-size: 90px;
+    // background-color: red !important;
 }
 .btn:link,
 .btn:visited{
@@ -84,6 +91,7 @@
     .product-img{
         img{
             width: 100%;
+            height: 350px;
             cursor: pointer;
             border-radius: 15px;
         }
@@ -226,7 +234,7 @@ transform: translateX(-100%);
 }
 .categories{
     position: relative;
-    display: flex;
+    @include flex();
     cursor: pointer;
     transition: 0.8s;
     &:hover{
@@ -234,6 +242,7 @@ transform: translateX(-100%);
         opacity: 0.9;
     }
         img{
+            height: 250px;
             width: 100%;
             border-radius: 15px;
         }
@@ -322,7 +331,6 @@ transform: translateX(-100%);
 // Futures end
 .paralax-img{
     img{
-
         width: 100%;
     }
 }
@@ -330,6 +338,17 @@ transform: translateX(-100%);
 @media screen and (max-width:992px){
     .discover-title{
         @include flex();
+    }
+    .discover--shop-title{
+        h2{
+            font-size: 70px !important;
+            font-weight: 600;
+        }
+    }
+    .discover--shop-description{
+        p{
+            font-size: 20px;
+        }
     }
     .about-info{
         padding: 20px 0;
@@ -343,5 +362,37 @@ transform: translateX(-100%);
     .categories-title h3{
         font-size: 2.5em;
         font-weight: 500;
+    }
+}
+@media screen and (max-width:768px) {
+    .discover--shop-title{
+        h2{
+            font-size: 45px !important;
+            font-weight: 600 !important;
+        }
+    }
+    .discover--shop-description{
+        p{
+            font-size: 16px !important;
+        }
+    }
+    .discover-title .discover--shop-button button{
+        font-size: 16px !important;
+    }
+}
+@media screen and (max-width:568px) {
+    .discover--shop-title{
+        h2{
+            font-size: 35px !important;
+            font-weight: 600 !important;
+        }
+    }
+    .discover--shop-description{
+        p{
+            font-size: 16px !important;
+        }
+    }
+    .discover-title .discover--shop-button button{
+        font-size: 14px !important;
     }
 }
